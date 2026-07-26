@@ -9,10 +9,10 @@ import { BatchConfig } from './types';
  */
 export const INSTITUTION_CONFIG = {
   // Display Name appearing in the Header
-  name: "AVSEC Reward Points Site", 
+  name: "NPRCET Reward Points Site", 
   
   // URL to the college logo (Direct link to image)
-logoUrl: "https://lh3.googleusercontent.com/d/1HAi70zVEf7sfLXk4H8W7uPF_rbHMmqC9=w500"
+logoUrl: "https://drive.google.com/file/d/1aZFIkfrtYixCaVsMeDAVHTTL5JUAj9sd/view?usp=sharing"
 };
 
 /**
@@ -29,8 +29,8 @@ export const ADMIN_AUTH_CONFIG = {
  *  Sheet containing columns: Email Address, Name, Register No, Department, Password
  */
 export const ELITE_AUTH_CONFIG = {
-  id: "1nIkD73XZ9uykJ_LRJM0GGBJCd73nUh0_xf2-_PGKeVI",
-  name: "Sheet1" 
+  id: "1marFjBDcgBBMtLjsvaP9g0RR2kSCgJzEdG-HWn1xFJQ",
+  name: "NPRCET_Elite_(2024_TO_2028)_students_Mastersheet" 
 };
 
 
@@ -55,7 +55,7 @@ export const BATCHES: BatchConfig[] = [
         
         // --- SEMESTER 1 SHEETS ---
         rewardSheets: {
-          IP1: { id: "1GqEDM-6xNqx6_rxq3YTqV34ayOuobFofWBUfOkU4n6E", name: "AVS_2025-2029_All_S3_IP1_RewardSplit" }
+          IP1: { id: "1ZMeNFtRIof7ucqf61KHO8NKzqqWs56F4Oy5bzAuuzq8", name: "NPR_2025-2029_S2_IP2_RewardsSplit" }
           // IP2: { id: "1cJc1Vc2PSAo6hUlGJSX_8R4jUnjzHA", name: "RCS_1styear_IP2_RewardsSplit" }
         },
         
@@ -350,7 +350,7 @@ export const BATCHES: BatchConfig[] = [
         
         // Reward Sheets for 2nd Year (using dummy IDs from 1st year for demo)
         rewardSheets: {
-          "IP1": { id: "1izJQt4cFV68-9HuPz3nHSAyITwLqakMxswyFwSPjUmI", name: "AVS_2024-2028_All_S5_IP1_RewardSplit" }
+          "IP1": { id: "1vg5-n9eGhGhkgkLuRaVldyr7gOXt14-FpbJQmQ7jIss", name: "RewardPoints_All_2ndYears_S4_IP2_NPR" }
           // "IP2": { id: "1cJc1Vc2PSR4jUnjzHA", name: "RCS_1styear_IP2_RewardsSplit" }
         },
         
