@@ -29,8 +29,8 @@ export const ADMIN_AUTH_CONFIG = {
  *  Sheet containing columns: Email Address, Name, Register No, Department, Password
  */
 export const ELITE_AUTH_CONFIG = {
-  id: "1marFjBDcgBBMtLjsvaP9g0RR2kSCgJzEdG-HWn1xFJQ",
-  name: "NPRCET_Elite_(2024_TO_2028)_students_Mastersheet" 
+  id: "1pqjpslJokcT1wtNNq-MraMLzgU_KmUCbuZ5674YBkqk",
+  name: "NPR_ELITE_2025-2029_BATCH" 
 };
 
 
