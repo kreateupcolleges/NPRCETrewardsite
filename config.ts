@@ -12,7 +12,7 @@ export const INSTITUTION_CONFIG = {
   name: "NPRCET Reward Points Site", 
   
   // URL to the college logo (Direct link to image)
-logoUrl: "https://drive.google.com/thumbnail?id=1aZFIkfrtYixCaVsMeDAVHTTL5JUAj9sd&sz=w1000"
+logoUrl: "https://drive.google.com/file/d/1aZFIkfrtYixCaVsMeDAVHTTL5JUAj9sd/view?usp=sharing"
 };
 
 /**
