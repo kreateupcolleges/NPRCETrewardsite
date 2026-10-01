@@ -49,13 +49,13 @@ export const BATCHES: BatchConfig[] = [
     id: 'batch-2025-2028',
     label: 'Batch 2025 - 2029 (2nd Year)',
     semesters: {
-      "1": { 
-        label: "Semester 2", 
+      "2": { 
+        label: "Semester 3", 
         internals: ["IP1", "IP2"],
         
         // --- SEMESTER 1 SHEETS ---
         rewardSheets: {
-          IP1: { id: "1ZMeNFtRIof7ucqf61KHO8NKzqqWs56F4Oy5bzAuuzq8", name: "NPR_2025-2029_S2_IP2_RewardsSplit" }
+          IP1: { id: "1iNVolZsurvADA7snlC0WXh9pAO4snrhdsOydm22ngH8", name: "NPR_2025-2029_All_S3_IP1_RewardSplit" }
           // IP2: { id: "1cJc1Vc2PSAo6hUlGJSX_8R4jUnjzHA", name: "RCS_1styear_IP2_RewardsSplit" }
         },
         
@@ -344,13 +344,13 @@ export const BATCHES: BatchConfig[] = [
     id: 'batch-2024-2028',
     label: 'Batch 2024 - 2028 (3rd Year)',
     semesters: {
-      "1": { 
-        label: "Semester 4", 
+      "3": { 
+        label: "Semester 5", 
         internals: ["IP1", "IP2"],
         
         // Reward Sheets for 2nd Year (using dummy IDs from 1st year for demo)
         rewardSheets: {
-          "IP1": { id: "1vg5-n9eGhGhkgkLuRaVldyr7gOXt14-FpbJQmQ7jIss", name: "RewardPoints_All_2ndYears_S4_IP2_NPR" }
+          "IP1": { id: "11ojcMSPJV_toYD5ARi6yqV4pqvFVHFpcVKVndnBv-rM", name: "NPR_2024-2028_All_S5_IP1_RewardSplit" }
           // "IP2": { id: "1cJc1Vc2PSR4jUnjzHA", name: "RCS_1styear_IP2_RewardsSplit" }
         },
         
