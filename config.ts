@@ -61,15 +61,15 @@ export const BATCHES: BatchConfig[] = [
         
         internalMarksSheets: {
           IP1: {
-           "MECH": { id: "1A2IY0Bmhi8w2fNS09QBqGLYVoWEZdeNYipT7tpUaeG8", name: "MECH" },
-            "CIVIL": { id: "1L5jCxRzAXog7c3iSeaGIMsvK9vlwcD4dsSSajF6wxyM", name: "CIVIL" },
-            "AI&DS": { id: "1z762IlhhwdcG2a35xgcYwMnL-FQjr6QUXfV5RJYB5AY", name: "AI&DS" },
+           "Mech": { id: "1A2IY0Bmhi8w2fNS09QBqGLYVoWEZdeNYipT7tpUaeG8", name: "Mech" },
+            "Civil": { id: "1L5jCxRzAXog7c3iSeaGIMsvK9vlwcD4dsSSajF6wxyM", name: "Civil" },
+            "AI & DS": { id: "1z762IlhhwdcG2a35xgcYwMnL-FQjr6QUXfV5RJYB5AY", name: "AI & DS" },
             "CSE": { id: "1REuPIWlOw4h4Cvm972SEo_hToVf-6rvbkSf8XEtcpcg", name: "CSE" },
             "ECE": { id: "19GxBFxqhDz_V4bWN0obscX9JYNGMTw4xxw4kFnIrDbw", name: "ECE" },
             "EEE": { id: "12HRmLMHE3MWSLtMPy2n3PcjEZg_Bd31aebcx2MS3bpg", name: "EEE" },
             "IT": { id: "11rRp4XdYhB-KvSqmsa_n0dXKaCC_7EJ8YZStye3TQuo", name: "IT" },
-            "AI&ML": { id: "1_p0lPWsXTzfNb2P5GB_ZV_O5nN6RSXZcKfvagv7-Qzo", name: "AI&ML" },
-            "CYBERSECURITY": { id: "12DIMQGgbmBx50exjj-rV4MZgG4rLOnhR0XPjly9w_6w", name: "CYBERSECURITY" }
+            "AI & ML": { id: "1_p0lPWsXTzfNb2P5GB_ZV_O5nN6RSXZcKfvagv7-Qzo", name: "AI & ML" },
+            "Cyber Security": { id: "12DIMQGgbmBx50exjj-rV4MZgG4rLOnhR0XPjly9w_6w", name: "Cyber Security" }
           }
           // IP2: {
           //   "B.Sc  AIML": { id: "1eHcJZfwa8DaQLH_mxp4", name: "B.Sc  AIML" },
@@ -90,7 +90,7 @@ export const BATCHES: BatchConfig[] = [
             "Lab+Theory": 10
           },
           departments: {
-"CIVIL": [
+"Civil": [
     { code: "25MA301", type: "Theory" },
     { code: "25CE301", type: "Theory" },
     { code: "25CE302", type: "Theory" },
@@ -130,7 +130,7 @@ export const BATCHES: BatchConfig[] = [
     { code: "25IT303", type: "Theory" }
   ],
 
-  "MECH": [
+  "Mech": [
     { code: "25MA301", type: "Theory" },
     { code: "25ME301", type: "Theory" },
     { code: "25ME302", type: "Theory" },
@@ -141,7 +141,7 @@ export const BATCHES: BatchConfig[] = [
     { code: "25ME313", type: "Lab" }
   ],
 
-  "AI&ML": [
+  "AI & ML": [
     { code: "25MA302", type: "Theory" },
     { code: "25IT301", type: "Lab+Theory" },
     { code: "25CS301", type: "Lab+Theory" },
@@ -150,7 +150,7 @@ export const BATCHES: BatchConfig[] = [
     { code: "25HSC01", type: "Theory" }
   ],
 
-  "AI&DS": [
+  "AI & DS": [
     { code: "25MA302", type: "Theory" },
     { code: "25AD301", type: "Lab+Theory" },
     { code: "25IT301", type: "Lab+Theory" },
@@ -168,7 +168,7 @@ export const BATCHES: BatchConfig[] = [
     { code: "25HSC01", type: "Theory" }
   ],
 
-  "CYBERSECURITY": [
+  "Cyber Security": [
     { code: "25MA302", type: "Theory" },
     { code: "25IT301", type: "Lab+Theory" },
     { code: "25CS301", type: "Lab+Theory" },
@@ -344,14 +344,14 @@ export const BATCHES: BatchConfig[] = [
         // Internal Marks for 2nd Year
         internalMarksSheets: {
           IP1: {
-           "MECH": { id: "166J_m6K7r5A-S2Q8mrfHFG7hmKz1tA69vIKHZ4UASEA", name: "MECH" },
-          "CIVIL": { id: "10MSpdiybH44FSDHTtyuVMuaWDr6ki_j3fV4Z3h0n3ZM", name: "CIVIL" },
-          "AI&DS": { id: "1XKAgE-1tYeBpweH9peN0o3OBAwtxSYI_qifXnvYewg4", name: "AI&DS" },
+           "Mech": { id: "166J_m6K7r5A-S2Q8mrfHFG7hmKz1tA69vIKHZ4UASEA", name: "Mech" },
+          "Civil": { id: "10MSpdiybH44FSDHTtyuVMuaWDr6ki_j3fV4Z3h0n3ZM", name: "Civil" },
+          "AI & DS": { id: "1XKAgE-1tYeBpweH9peN0o3OBAwtxSYI_qifXnvYewg4", name: "AI & DS" },
           "CSE": { id: "11z4MMgI8DOlQCKFxe0Ltp66vh4HUHLBNTLGYk1wZlYo", name: "CSE" },
           "ECE": { id: "1VnqCIjSAo_qNfTs6EkKrfl1LYpJopy6Rt1aQmxkOmAw", name: "ECE" },
           "EEE": { id: "1ehzA3Uab3xwPRU8cgNRpxpIQ8EkiwvMMVkHXK8o_a5Q", name: "EEE" },
           "IT": { id: "16yAZQ7jMisKDtCmp2S4Lm7-Vh5g7VOCbvG4g4i7wv0g", name: "IT" },
-          "AI&ML": { id: "1xVoxuki1pfmVyu_3gud5CEazDk_d0FxBCqm9d8Ga97g", name: "AI&ML" }
+          "AI & ML": { id: "1xVoxuki1pfmVyu_3gud5CEazDk_d0FxBCqm9d8Ga97g", name: "AI & ML" }
           }
         },
 
@@ -363,7 +363,7 @@ export const BATCHES: BatchConfig[] = [
             "Lab+Theory": 10
           },
           departments: {
-  "CIVIL": [
+  "Civil": [
     { code: "23CE501", type: "Theory" },
     { code: "23CE502", type: "Theory" },
     { code: "23CE503", type: "Theory" },
@@ -402,7 +402,7 @@ export const BATCHES: BatchConfig[] = [
     { code: "23EE512", type: "Lab" }
   ],
 
-  "MECH": [
+  "Mech": [
     { code: "23ME501", type: "Theory" },
     { code: "23ME502", type: "Theory" },
     { code: "23ME503", type: "Theory" },
@@ -413,7 +413,7 @@ export const BATCHES: BatchConfig[] = [
     { code: "23ME513", type: "Lab" }
   ],
 
-  "AI&ML": [
+  "AI & ML": [
     { code: "23AL501", type: "Lab+Theory" },
     { code: "23AL502", type: "Lab+Theory" },
     { code: "23CS902", type: "Theory" },
@@ -422,7 +422,7 @@ export const BATCHES: BatchConfig[] = [
     { code: "23PIT04", type: "Lab+Theory" }
   ],
 
-  "AI&DS": [
+  "AI & DS": [
   { code: "23AD501", type: "Lab+Theory" },
   { code: "23AD502", type: "Theory" },
   { code: "23CS903", type: "Lab+Theory" },
