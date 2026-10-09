@@ -61,15 +61,16 @@ export const BATCHES: BatchConfig[] = [
         
         internalMarksSheets: {
           IP1: {
-            // "MECH": { id: "14A33H7s8SNZgjRnfvgESCrAzK6K7R-4puQbaAlgQTzw", name: "MECH" },
-            // "BME": { id: "1ydFoERh8XFsQOU2Qi6eV_FdRsdsc3d0z8jI50bF1dFo", name: "BME" },
-            // "CIVIL": { id: "1FyFi84YSKHGHHxBE0rEd_LhCJWeNcwXj3VXSd3QK-SI", name: "CIVIL" },
-            // "AI&DS": { id: "1Sr-cXu0NObfhD_AtKAjk0cdLIMZah1WvD6QAoVRCGLE", name: "AI&DS" },
-            // "CSE": { id: "1b0yCrYskT01B8a1uIyDIAc6AWqILV-0m5e846RENtrs", name: "CSE" },
-            // "ECE": { id: "117ObwLKacCAweRJc-cW8bGDXKyvvT8vPnW58ypklg4M", name: "ECE" },
-            // "EEE": { id: "1ExmZQk28k0jsl8lH6IRBSOXkCFuKANCcI-OPPu6q28I", name: "EEE" },
-            // "IT": { id: "1nj1h-G64fqSkVd4Lr7W9IgOnqWYyplUbXjcyjaAVJ4U", name: "IT" },
-            // "AI&ML": { id: "1MmP_uwNpzLQdcefau2Gi90H6TunIb91QAJfLtv-znzM", name: "AI&ML" }
+           "MECH": { id: "1A2IY0Bmhi8w2fNS09QBqGLYVoWEZdeNYipT7tpUaeG8", name: "Mech" },
+"BME": { id: "1ydFoERh8XFsQOU2Qi6eV_FdRsdsc3d0z8jI50bF1dFo", name: "BME" },
+"CIVIL": { id: "1L5jCxRzAXog7c3iSeaGIMsvK9vlwcD4dsSSajF6wxyM", name: "Civil" },
+"AI&DS": { id: "1z762IlhhwdcG2a35xgcYwMnL-FQjr6QUXfV5RJYB5AY", name: "AI&DS" },
+"CSE": { id: "1REuPIWlOw4h4Cvm972SEo_hToVf-6rvbkSf8XEtcpcg", name: "CSE" },
+"ECE": { id: "19GxBFxqhDz_V4bWN0obscX9JYNGMTw4xxw4kFnIrDbw", name: "ECE" },
+"EEE": { id: "12HRmLMHE3MWSLtMPy2n3PcjEZg_Bd31aebcx2MS3bpg", name: "EEE" },
+"IT": { id: "11rRp4XdYhB-KvSqmsa_n0dXKaCC_7EJ8YZStye3TQuo", name: "IT" },
+"AI&ML": { id: "1_p0lPWsXTzfNb2P5GB_ZV_O5nN6RSXZcKfvagv7-Qzo", name: "AI&ML" },
+"Cyber Security": { id: "12DIMQGgbmBx50exjj-rV4MZgG4rLOnhR0XPjly9w_6w", name: "Cyber Security" }
           }
           // IP2: {
           //   "B.Sc  AIML": { id: "1eHcJZfwa8DaQLH_mxp4", name: "B.Sc  AIML" },
@@ -85,110 +86,97 @@ export const BATCHES: BatchConfig[] = [
         // --- SEMESTER 1 SUBJECTS ---
         subjectConfig: {
           defaultMaxMarks: {
-            Theory: 20,
-            Lab: 20,
-            "Lab+Theory": 20
+            Theory: 8,
+            Lab: 10,
+            "Lab+Theory": 10
           },
           departments: {
-// "MECH": [
-//     { code: "UC25H02", type: "Theory", maxMarks: 20 },
-//     { code: "EN25C02", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "MA25C02", type: "Theory", maxMarks: 20 },
-//     { code: "PH25C05", type: "Theory", maxMarks: 20 },
-//     { code: "CY25C03", type: "Theory", maxMarks: 20 },
-//     { code: "ME25C02", type: "Theory", maxMarks: 20 },
-//     { code: "EE25C01", type: "Theory", maxMarks: 20 },
-//     { code: "ME25C05", type: "Lab", maxMarks: 20 }
-//   ],
+"Civil": [
+    { code: "25MA301", type: "Theory" },
+    { code: "25CE301", type: "Theory" },
+    { code: "25CE302", type: "Theory" },
+    { code: "25CE303", type: "Theory" },
+    { code: "25CE304", type: "Theory" },
+    { code: "25CE305", type: "Theory" },
+    { code: "25CE311", type: "Lab" },
+    { code: "25CE312", type: "Lab" },
+    { code: "25CE313", type: "Lab" }
+  ],
 
-//   "BME": [
-//     { code: "UC25H02", type: "Theory", maxMarks: 20 },
-//     { code: "EN25C02", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "MA25C02", type: "Theory", maxMarks: 20 },
-//     { code: "ME25C02", type: "Theory", maxMarks: 20 },
-//     { code: "PH25C07", type: "Theory", maxMarks: 20 },
-//     { code: "BM25C01", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "BM25C02", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "ME25C05", type: "Lab", maxMarks: 20 }
-//   ],
+  "CSE": [
+    { code: "25MA302", type: "Theory" },
+    { code: "25IT301", type: "Lab+Theory" },
+    { code: "25CS301", type: "Lab+Theory" },
+    { code: "25CS302", type: "Lab+Theory" },
+    { code: "25AD301", type: "Lab+Theory" },
+    { code: "25HSC01", type: "Theory" }
+  ],
 
-//   "CIVIL": [
-//     { code: "UC25H02", type: "Theory", maxMarks: 20 },
-//     { code: "EN25C02", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "MA25C02", type: "Theory", maxMarks: 20 },
-//     { code: "PH25C02", type: "Theory", maxMarks: 20 },
-//     { code: "CY25C02", type: "Theory", maxMarks: 20 },
-//     { code: "ME25C02", type: "Theory", maxMarks: 20 },
-//     { code: "CE25201", type: "Theory", maxMarks: 20 },
-//     { code: "EE25C01", type: "Theory", maxMarks: 20 },
-//     { code: "ME25C05", type: "Lab", maxMarks: 20 }
-//   ],
+  "ECE": [
+    { code: "25MA303", type: "Theory" },
+    { code: "25AI301", type: "Theory" },
+    { code: "25EC301", type: "Theory" },
+    { code: "25EC302", type: "Lab+Theory" },
+    { code: "25EC303", type: "Theory" },
+    { code: "25HSC01", type: "Theory" },
+    { code: "25AI311", type: "Lab" }
+  ],
 
-//   "AI&DS": [
-//     { code: "UC25H02", type: "Theory", maxMarks: 20 },
-//     { code: "EN25C02", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "MA25C02", type: "Theory", maxMarks: 20 },
-//     { code: "PH25C03", type: "Theory", maxMarks: 20 },
-//     { code: "EE25C01", type: "Theory", maxMarks: 20 },
-//     { code: "CS25C06", type: "Theory", maxMarks: 20 },
-//     { code: "AD25201", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "ME25C05", type: "Lab", maxMarks: 20 }
-//   ],
+  "EEE": [
+    { code: "25MAC01", type: "Theory" },
+    { code: "25EE301", type: "Lab+Theory" },
+    { code: "25EE302", type: "Lab+Theory" },
+    { code: "25EE303", type: "Lab+Theory" },
+    { code: "25EE304", type: "Theory" },
+    { code: "25IT303", type: "Theory" }
+  ],
 
-//   "CSE": [
-//     { code: "UC25H02", type: "Theory", maxMarks: 20 },
-//     { code: "EN25C02", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "MA25C02", type: "Theory", maxMarks: 20 },
-//     { code: "PH25C03", type: "Theory", maxMarks: 20 },
-//     { code: "EE25C01", type: "Theory", maxMarks: 20 },
-//     { code: "CS25C06", type: "Theory", maxMarks: 20 },
-//     { code: "CS25C07", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "ME25C05", type: "Lab", maxMarks: 20 }
-//   ],
+  "MECH": [
+    { code: "25MA301", type: "Theory" },
+    { code: "25ME301", type: "Theory" },
+    { code: "25ME302", type: "Theory" },
+    { code: "25ME303", type: "Theory" },
+    { code: "25HSC01", type: "Theory" },
+    { code: "25ME311", type: "Lab" },
+    { code: "25ME312", type: "Lab" },
+    { code: "25ME313", type: "Lab" }
+  ],
 
-//   "ECE": [
-//     { code: "UC25H02", type: "Theory", maxMarks: 20 },
-//     { code: "EN25C02", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "MA25C02", type: "Theory", maxMarks: 20 },
-//     { code: "EC25C01", type: "Theory", maxMarks: 20 },
-//     { code: "EC25C02", type: "Theory", maxMarks: 20 },
-//     { code: "EC25C03", type: "Lab", maxMarks: 20 },
-//     { code: "CS25C05", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "ME25C05", type: "Lab", maxMarks: 20 }
-//   ],
+  "AI & ML": [
+    { code: "25MA302", type: "Theory" },
+    { code: "25IT301", type: "Lab+Theory" },
+    { code: "25CS301", type: "Lab+Theory" },
+    { code: "25CS302", type: "Lab+Theory" },
+    { code: "25AD301", type: "Lab+Theory" },
+    { code: "25HSC01", type: "Theory" }
+  ],
 
-//   "EEE": [
-//     { code: "UC25H02", type: "Theory", maxMarks: 20 },
-//     { code: "EN25C02", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "MA25C03", type: "Theory", maxMarks: 20 },
-//     { code: "PH25C04", type: "Theory", maxMarks: 20 },
-//     { code: "ME25C01", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "CS25C04", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "ME25C05", type: "Lab", maxMarks: 20 },
-//     { code: "GE25C01", type: "Theory", maxMarks: 20 }
-//   ],
+  "AI & DS": [
+    { code: "25MA302", type: "Theory" },
+    { code: "25AD301", type: "Lab+Theory" },
+    { code: "25IT301", type: "Lab+Theory" },
+    { code: "25CS301", type: "Lab+Theory" },
+    { code: "25AD302", type: "Lab+Theory" },
+    { code: "25HSC01", type: "Theory" }
+  ],
 
-//   "IT": [
-//     { code: "UC25H02", type: "Theory", maxMarks: 20 },
-//     { code: "EN25C02", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "MA25C02", type: "Theory", maxMarks: 20 },
-//     { code: "PH25C02", type: "Theory", maxMarks: 20 },
-//     { code: "EE25C01", type: "Theory", maxMarks: 20 },
-//     { code: "IT25201", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "IT25202", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "ME25C05", type: "Lab", maxMarks: 20 }
-//   ],
+  "IT": [
+    { code: "25MA302", type: "Theory" },
+    { code: "25IT301", type: "Lab+Theory" },
+    { code: "25IT302", type: "Lab+Theory" },
+    { code: "25CS301", type: "Lab+Theory" },
+    { code: "25AD301", type: "Lab+Theory" },
+    { code: "25HSC01", type: "Theory" }
+  ],
 
-//   "AI&ML": [
-//     { code: "UC25H02", type: "Theory", maxMarks: 20 },
-//     { code: "EN25C02", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "MA25C02", type: "Theory", maxMarks: 20 },
-//     { code: "PH25C03", type: "Theory", maxMarks: 20 },
-//     { code: "EE25C01", type: "Theory", maxMarks: 20 },
-//     { code: "CS25C06", type: "Theory", maxMarks: 20 },
-//     { code: "CS25C07", type: "Lab+Theory", maxMarks: 20 },
-//     { code: "ME25C05", type: "Lab", maxMarks: 20 }
-//   ]
+  "CYBERSECURITY": [
+    { code: "25MA302", type: "Theory" },
+    { code: "25IT301", type: "Lab+Theory" },
+    { code: "25CS301", type: "Lab+Theory" },
+    { code: "25CS302", type: "Lab+Theory" },
+    { code: "25AD301", type: "Lab+Theory" },
+    { code: "25HSC01", type: "Theory" }
+  ]
           }
   }
    } 
@@ -357,115 +345,102 @@ export const BATCHES: BatchConfig[] = [
         // Internal Marks for 2nd Year
         internalMarksSheets: {
           IP1: {
-            // "MECH": { id: "16Z7Vipey-3SjTyRnklVy7EF1s4fvxUlk3JvZm5VpQPE", name: "MECH" },
-            // "BME": { id: "1usztgxeLA80WvG66c__R9shytxSXSr6IdsyE5e4edaQ", name: "BME" },
-            // "CIVIL ENGINEERING": { id: "1WqpUIh5sbbM0S8cvIbYf4aQe-9ic8t3LNT15lIpeOdI", name: "CIVIL ENGINEERING" },
-            // "AI&DS": { id: "17ZOzCvPve7FwkfedX9Mc2NIIFirEpWbqB2JEQs2MzFk", name: "AI&DS" },
-            // "CSE": { id: "14tAZVlviH1y7CzynjqkDeI1Wex6o80rUPfFnF7rog-k", name: "CSE" },
-            // "ECE": { id: "193xlpfKDF7_yDlPcJ_nr6gtWQhWBOb4liTaOmxEr0hI", name: "ECE" },
-            // "EEE": { id: "1-8gCkbQN-wmxr1NvWunfEW65JJw7UiJY8Mz9z4RyDCo", name: "EEE" },
-            // "IT": { id: "19mEAWIR_6hppQlAcgjgGLgy9vKfmOT0igAor8k_14YY", name: "IT" },
-            // "AI&ML": { id: "1MmP_uwNpzLQdcefau2Gi90H6TunIb91QAJfLtv-znzM", name: "AI&ML" }
+           "MECH": { id: "166J_m6K7r5A-S2Q8mrfHFG7hmKz1tA69vIKHZ4UASEA", name: "Mech" },
+"BME": { id: "1usztgxeLA80WvG66c__R9shytxSXSr6IdsyE5e4edaQ", name: "BME" },
+"CIVIL ENGINEERING": { id: "10MSpdiybH44FSDHTtyuVMuaWDr6ki_j3fV4Z3h0n3ZM", name: "Civil" },
+"AI&DS": { id: "1XKAgE-1tYeBpweH9peN0o3OBAwtxSYI_qifXnvYewg4", name: "AI & DS" },
+"CSE": { id: "11z4MMgI8DOlQCKFxe0Ltp66vh4HUHLBNTLGYk1wZlYo", name: "CSE" },
+"ECE": { id: "1VnqCIjSAo_qNfTs6EkKrfl1LYpJopy6Rt1aQmxkOmAw", name: "ECE" },
+"EEE": { id: "1ehzA3Uab3xwPRU8cgNRpxpIQ8EkiwvMMVkHXK8o_a5Q", name: "EEE" },
+"IT": { id: "16yAZQ7jMisKDtCmp2S4Lm7-Vh5g7VOCbvG4g4i7wv0g", name: "IT" },
+"AI&ML": { id: "1xVoxuki1pfmVyu_3gud5CEazDk_d0FxBCqm9d8Ga97g", name: "AI & ML" }
           }
         },
 
         // Subjects for 2nd Year, Semester 3
         subjectConfig: {
           defaultMaxMarks: {
-            Theory: 20,
-            Lab: 20,
-            "Lab+Theory": 20
+            Theory: 8,
+            Lab: 10,
+            "Lab+Theory": 10
           },
           departments: {
-  // "BME": [
-  //   { code: "MA3355", type: "Theory", maxMarks: 20 },
-  //   { code: "BM3491", type: "Theory", maxMarks: 20 },
-  //   { code: "BM3402", type: "Theory", maxMarks: 20 },
-  //   { code: "BM3451", type: "Theory", maxMarks: 20 },
-  //   { code: "BM3401", type: "Lab+Theory", maxMarks: 20 },
-  //   { code: "GE3451", type: "Theory", maxMarks: 20 },
-  //   { code: "BM3411", type: "Lab", maxMarks: 20 },
-  //   { code: "BM3412", type: "Lab", maxMarks: 20 }
-  // ],
+  "Civil": [
+    { code: "23CE501", type: "Theory" },
+    { code: "23CE502", type: "Theory" },
+    { code: "23CE503", type: "Theory" },
+    { code: "23PCE04", type: "Theory" },
+    { code: "23PCE30", type: "Theory" },
+    { code: "23OHS01", type: "Theory" }
+  ],
 
-  // "ECE": [
-  //   { code: "EC3451", type: "Theory", maxMarks: 20 },
-  //   { code: "EC3461", type: "Theory", maxMarks: 20 },
-  //   { code: "EC3492", type: "Lab+Theory", maxMarks: 20 },
-  //   { code: "EC3401", type: "Theory", maxMarks: 20 },
-  //   { code: "EC3452", type: "Theory", maxMarks: 20 },
-  //   { code: "GE3451", type: "Theory", maxMarks: 20 },
-  //   { code: "EC3462", type: "Lab", maxMarks: 20 },
-  //   { code: "EC3461", type: "Lab", maxMarks: 20 }
-  // ],
+  "CSE": [
+    { code: "23CS501", type: "Lab+Theory" },
+    { code: "23CS902", type: "Theory" },
+    { code: "23CS503", type: "Lab+Theory" },
+    { code: "23OEC02", type: "Theory" },
+    { code: "23PIT05", type: "Lab+Theory" },
+    { code: "23CS905", type: "Lab+Theory" }
+  ],
 
-  // "CSE": [
-  //   { code: "CS3452", type: "Theory", maxMarks: 20 },
-  //   { code: "CS3491", type: "Lab+Theory", maxMarks: 20 },
-  //   { code: "CS3492", type: "Theory", maxMarks: 20 },
-  //   { code: "CS3401", type: "Lab+Theory", maxMarks: 20 },
-  //   { code: "CS3451", type: "Lab+Theory", maxMarks: 20 },
-  //   { code: "GE3451", type: "Theory", maxMarks: 20 },
-  //   { code: "CS3461", type: "Lab", maxMarks: 20 },
-  //   { code: "CS3481", type: "Lab", maxMarks: 20 }
-  // ],
+  "ECE": [
+    { code: "23EC501", type: "Lab+Theory" },
+    { code: "23EC502", type: "Theory" },
+    { code: "23EC503", type: "Theory" },
+    { code: "23EC504", type: "Theory" },
+    { code: "23PEC12", type: "Theory" },
+    { code: "23OME10", type: "Theory" },
+    { code: "23EC511", type: "Lab" },
+    { code: "23EC512", type: "Lab" }
+  ],
 
-  // "AI&DS": [
-  //   { code: "CS3591", type: "Lab+Theory", maxMarks: 20 },
-  //   { code: "AL3452", type: "Lab+Theory", maxMarks: 20 },
-  //   { code: "AL3451", type: "Theory", maxMarks: 20 },
-  //   { code: "AD3491", type: "Theory", maxMarks: 20 },
-  //   { code: "MA3391", type: "Theory", maxMarks: 20 },
-  //   { code: "GE3451", type: "Theory", maxMarks: 20 },
-  //   { code: "AD3411", type: "Lab", maxMarks: 20 },
-  //   { code: "AL3461", type: "Lab", maxMarks: 20 }
-  // ],
+  "EEE": [
+    { code: "23EE501", type: "Theory" },
+    { code: "23EE502", type: "Theory" },
+    { code: "23EE503", type: "Lab+Theory" },
+    { code: "23OME01", type: "Theory" },
+    { code: "23PEE07", type: "Theory" },
+    { code: "23EE511", type: "Lab" },
+    { code: "23EE512", type: "Lab" }
+  ],
 
-  // "CIVIL ENGINEERING": [
-  //   { code: "CE3401", type: "Theory", maxMarks: 20 },
-  //   { code: "CE3402", type: "Theory", maxMarks: 20 },
-  //   { code: "CE3403", type: "Theory", maxMarks: 20 },
-  //   { code: "CE3404", type: "Theory", maxMarks: 20 },
-  //   { code: "CE3405", type: "Theory", maxMarks: 20 },
-  //   { code: "GE3451", type: "Theory", maxMarks: 20 },
-  //   { code: "CE3411", type: "Lab", maxMarks: 20 },
-  //   { code: "CE3412", type: "Lab", maxMarks: 20 },
-  //   { code: "CE3413", type: "Lab", maxMarks: 20 }
-  // ],
+  "MECH": [
+    { code: "23ME501", type: "Theory" },
+    { code: "23ME502", type: "Theory" },
+    { code: "23ME503", type: "Theory" },
+    { code: "23PME59", type: "Theory" },
+    { code: "23PME67", type: "Theory" },
+    { code: "23OEE03", type: "Theory" },
+    { code: "23ME512", type: "Lab" },
+    { code: "23ME513", type: "Lab" }
+  ],
 
-  // "EEE": [
-  //   { code: "GE3451", type: "Theory", maxMarks: 20 },
-  //   { code: "EE3401", type: "Theory", maxMarks: 20 },
-  //   { code: "EE3402", type: "Theory", maxMarks: 20 },
-  //   { code: "EE3403", type: "Theory", maxMarks: 20 },
-  //   { code: "EE3404", type: "Theory", maxMarks: 20 },
-  //   { code: "EE3405", type: "Theory", maxMarks: 20 },
-  //   { code: "EE3411", type: "Lab", maxMarks: 20 },
-  //   { code: "EE3412", type: "Lab", maxMarks: 20 },
-  //   { code: "EE3413", type: "Lab", maxMarks: 20 }
-  // ],
+  "AI & ML": [
+    { code: "23AL501", type: "Lab+Theory" },
+    { code: "23AL502", type: "Lab+Theory" },
+    { code: "23CS902", type: "Theory" },
+    { code: "23OEC02", type: "Theory" },
+    { code: "23PAD02", type: "Lab+Theory" },
+    { code: "23PIT04", type: "Lab+Theory" }
+  ],
 
-  // "IT": [
-  //   { code: "CS3452", type: "Theory", maxMarks: 20 },
-  //   { code: "CS3453", type: "Lab+Theory", maxMarks: 20 },
-  //   { code: "CS3454", type: "Theory", maxMarks: 20 },
-  //   { code: "CS3455", type: "Lab+Theory", maxMarks: 20 },
-  //   { code: "CS3456", type: "Theory", maxMarks: 20 },
-  //   { code: "CS3457", type: "Theory", maxMarks: 20 },
-  //   { code: "CS3458", type: "Lab", maxMarks: 20 },
-  //   { code: "CS3459", type: "Lab", maxMarks: 20 }
-  // ],
+  "AI & DS": [
+  { code: "23AD501", type: "Lab+Theory" },
+  { code: "23AD502", type: "Theory" },
+  { code: "23CS903", type: "Lab+Theory" },
+  { code: "23OEC02", type: "Theory" },
+  { code: "23PAD902", type: "Lab+Theory" },
+  { code: "23PIT04", type: "Lab+Theory" }
+],
 
-  // "MECHANICAL": [
-  //   { code: "ME3491", type: "Theory", maxMarks: 20 },
-  //   { code: "ME3451", type: "Theory", maxMarks: 20 },
-  //   { code: "ME3492", type: "Theory", maxMarks: 20 },
-  //   { code: "ME3493", type: "Theory", maxMarks: 20 },
-  //   { code: "CE3491", type: "Theory", maxMarks: 20 },
-  //   { code: "GE3451", type: "Theory", maxMarks: 20 },
-  //   { code: "CE3481", type: "Lab", maxMarks: 20 },
-  //   { code: "ME3461", type: "Lab", maxMarks: 20 }
-  // ]
+"IT": [
+  { code: "23CS501", type: "Lab+Theory" },
+  { code: "23AD503", type: "Lab+Theory" },
+  { code: "23IT501", type: "Lab+Theory" },
+  { code: "23OEC02", type: "Theory" },
+  { code: "23CS905", type: "Lab+Theory" },
+  { code: "23PIT04", type: "Lab+Theory" }
+]
           }
         }
       }
