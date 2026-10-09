@@ -62,7 +62,6 @@ export const BATCHES: BatchConfig[] = [
         internalMarksSheets: {
           IP1: {
            "MECH": { id: "1A2IY0Bmhi8w2fNS09QBqGLYVoWEZdeNYipT7tpUaeG8", name: "MECH" },
-            "BME": { id: "1ydFoERh8XFsQOU2Qi6eV_FdRsdsc3d0z8jI50bF1dFo", name: "BME" },
             "CIVIL": { id: "1L5jCxRzAXog7c3iSeaGIMsvK9vlwcD4dsSSajF6wxyM", name: "CIVIL" },
             "AI&DS": { id: "1z762IlhhwdcG2a35xgcYwMnL-FQjr6QUXfV5RJYB5AY", name: "AI&DS" },
             "CSE": { id: "1REuPIWlOw4h4Cvm972SEo_hToVf-6rvbkSf8XEtcpcg", name: "CSE" },
@@ -346,8 +345,7 @@ export const BATCHES: BatchConfig[] = [
         internalMarksSheets: {
           IP1: {
            "MECH": { id: "166J_m6K7r5A-S2Q8mrfHFG7hmKz1tA69vIKHZ4UASEA", name: "MECH" },
-          "BME": { id: "1usztgxeLA80WvG66c__R9shytxSXSr6IdsyE5e4edaQ", name: "BME" },
-          "CIVIL ENGINEERING": { id: "10MSpdiybH44FSDHTtyuVMuaWDr6ki_j3fV4Z3h0n3ZM", name: "CIVIL" },
+          "CIVIL": { id: "10MSpdiybH44FSDHTtyuVMuaWDr6ki_j3fV4Z3h0n3ZM", name: "CIVIL" },
           "AI&DS": { id: "1XKAgE-1tYeBpweH9peN0o3OBAwtxSYI_qifXnvYewg4", name: "AI&DS" },
           "CSE": { id: "11z4MMgI8DOlQCKFxe0Ltp66vh4HUHLBNTLGYk1wZlYo", name: "CSE" },
           "ECE": { id: "1VnqCIjSAo_qNfTs6EkKrfl1LYpJopy6Rt1aQmxkOmAw", name: "ECE" },
