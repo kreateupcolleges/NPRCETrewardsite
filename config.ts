@@ -61,15 +61,15 @@ export const BATCHES: BatchConfig[] = [
         
         internalMarksSheets: {
           IP1: {
-           "Mech": { id: "1A2IY0Bmhi8w2fNS09QBqGLYVoWEZdeNYipT7tpUaeG8", name: "Mech" },
-            "Civil": { id: "1L5jCxRzAXog7c3iSeaGIMsvK9vlwcD4dsSSajF6wxyM", name: "Civil" },
-            "AI & DS": { id: "1z762IlhhwdcG2a35xgcYwMnL-FQjr6QUXfV5RJYB5AY", name: "AI & DS" },
-            "CSE": { id: "1REuPIWlOw4h4Cvm972SEo_hToVf-6rvbkSf8XEtcpcg", name: "CSE" },
-            "ECE": { id: "19GxBFxqhDz_V4bWN0obscX9JYNGMTw4xxw4kFnIrDbw", name: "ECE" },
-            "EEE": { id: "12HRmLMHE3MWSLtMPy2n3PcjEZg_Bd31aebcx2MS3bpg", name: "EEE" },
-            "IT": { id: "11rRp4XdYhB-KvSqmsa_n0dXKaCC_7EJ8YZStye3TQuo", name: "IT" },
-            "AI & ML": { id: "1_p0lPWsXTzfNb2P5GB_ZV_O5nN6RSXZcKfvagv7-Qzo", name: "AI & ML" },
-            "Cyber Security": { id: "12DIMQGgbmBx50exjj-rV4MZgG4rLOnhR0XPjly9w_6w", name: "Cyber Security" }
+           "Mech": { id: "1A2IY0Bmhi8w2fNS09QBqGLYVoWEZdeNYi7tpUaeG8", name: "Mech" },
+            "Civil": { id: "1L5jCxRzAXog7c3iSeaGIMsvK9vlwcdsSSajF6wxyM", name: "Civil" },
+            "AI & DS": { id: "1z762IlhhwdcG2a35xgcYwMnL-FQjr6XfV5RJYB5AY", name: "AI & DS" },
+            "CSE": { id: "1REuPIWlOw4h4Cvm972SEo_hToVf-6rvbkSXEtcpcg", name: "CSE" },
+            "ECE": { id: "19GxBFxqhDz_V4bWN0obscX9JYNGMTw4xxw4nIrDbw", name: "ECE" },
+            "EEE": { id: "12HRmLMHE3MWSLtMPy2n3PcjEZg_Bd31aebcx2MSpg", name: "EEE" },
+            "IT": { id: "11rRp4XdYhB-KvSqmsa_n0dXKaCC_7EJ8YZStye3Quo", name: "IT" },
+            "AI & ML": { id: "1_p0lPWsXTzfNb2P5GB_ZV_O5nN6RSXZcKfvag7-Qzo", name: "AI & ML" },
+            "Cyber Security": { id: "12DIMQGgbmBx50exjj-rV4MZgG4rnhR0XPjly9w_6w", name: "Cyber Security" }
           }
           // IP2: {
           //   "B.Sc  AIML": { id: "1eHcJZfwa8DaQLH_mxp4", name: "B.Sc  AIML" },
@@ -344,14 +344,14 @@ export const BATCHES: BatchConfig[] = [
         // Internal Marks for 2nd Year
         internalMarksSheets: {
           IP1: {
-           "Mech": { id: "166J_m6K7r5A-S2Q8mrfHFG7hmKz1tA69vIKHZ4UASEA", name: "Mech" },
-          "Civil": { id: "10MSpdiybH44FSDHTtyuVMuaWDr6ki_j3fV4Z3h0n3ZM", name: "Civil" },
-          "AI & DS": { id: "1XKAgE-1tYeBpweH9peN0o3OBAwtxSYI_qifXnvYewg4", name: "AI & DS" },
-          "CSE": { id: "11z4MMgI8DOlQCKFxe0Ltp66vh4HUHLBNTLGYk1wZlYo", name: "CSE" },
-          "ECE": { id: "1VnqCIjSAo_qNfTs6EkKrfl1LYpJopy6Rt1aQmxkOmAw", name: "ECE" },
-          "EEE": { id: "1ehzA3Uab3xwPRU8cgNRpxpIQ8EkiwvMMVkHXK8o_a5Q", name: "EEE" },
-          "IT": { id: "16yAZQ7jMisKDtCmp2S4Lm7-Vh5g7VOCbvG4g4i7wv0g", name: "IT" },
-          "AI & ML": { id: "1xVoxuki1pfmVyu_3gud5CEazDk_d0FxBCqm9d8Ga97g", name: "AI & ML" }
+           "Mech": { id: "166J_m6K7r5A-S2Q8mrfH7hmKz1tA69vIKHZ4UASEA", name: "Mech" },
+          "Civil": { id: "10MSpdiybH44FSDHTtyuVMuaW6ki_j3fV4Z3h0n3ZM", name: "Civil" },
+          "AI & DS": { id: "1XKAgE-1tYeBpweH9peN0o3OwtxSYI_qifXnvYewg4", name: "AI & DS" },
+          "CSE": { id: "11z4MMgI8DOlQCKFxe0Ltp66vh4HUHNTLGYk1wZlYo", name: "CSE" },
+          "ECE": { id: "1VnqCIjSAo_qNfTs6EkKrfl1LYpJopyRt1aQmxkOmAw", name: "ECE" },
+          "EEE": { id: "1ehzA3Uab3xwPRU8cgNRpxpIQ8EkiwvMMVHXK8o_a5Q", name: "EEE" },
+          "IT": { id: "16yAZQ7jMisKDtCmp2S4Lm7-Vh5g7VOCbvGg4i7wv0g", name: "IT" },
+          "AI & ML": { id: "1xVoxuki1pfmVyu_3gud5CEazDk_d0Fxqm9d8Ga97g", name: "AI & ML" }
           }
         },
 
