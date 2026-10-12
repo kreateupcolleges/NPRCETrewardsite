@@ -61,15 +61,15 @@ export const BATCHES: BatchConfig[] = [
         
         internalMarksSheets: {
           IP1: {
-           "Mech": { id: "1A2IY0Bmhi8w2fNS09QBqGLYVoWEZdeNYi7tpUaeG8", name: "Mech" },
-            "Civil": { id: "1L5jCxRzAXog7c3iSeaGIMsvK9vlwcdsSSajF6wxyM", name: "Civil" },
-            "AI & DS": { id: "1z762IlhhwdcG2a35xgcYwMnL-FQjr6XfV5RJYB5AY", name: "AI & DS" },
-            "CSE": { id: "1REuPIWlOw4h4Cvm972SEo_hToVf-6rvbkSXEtcpcg", name: "CSE" },
-            "ECE": { id: "19GxBFxqhDz_V4bWN0obscX9JYNGMTw4xxw4nIrDbw", name: "ECE" },
-            "EEE": { id: "12HRmLMHE3MWSLtMPy2n3PcjEZg_Bd31aebcx2MSpg", name: "EEE" },
-            "IT": { id: "11rRp4XdYhB-KvSqmsa_n0dXKaCC_7EJ8YZStye3Quo", name: "IT" },
-            "AI & ML": { id: "1_p0lPWsXTzfNb2P5GB_ZV_O5nN6RSXZcKfvag7-Qzo", name: "AI & ML" },
-            "Cyber Security": { id: "12DIMQGgbmBx50exjj-rV4MZgG4rnhR0XPjly9w_6w", name: "Cyber Security" }
+           "Mech": { id: "1Ce3PV4Hmx9GFXDy8bQcJrO8zUVMiRi3v7WnFSIv3B1Q", name: "Mech" },
+            "Civil": { id: "1StLnbGv7l-rR5FAtRF1WbNkfdkGywf19hBIfFXUIOj4", name: "Civil" },
+            "AI & DS": { id: "17MbcwBub27BfRlF5BtBlJY9Hr2Va07dAZ9x96yTIHvg", name: "AI & DS" },
+            "CSE": { id: "1B7p_HrpkKVik9KwHsxOnNQi02gmi-x6ejn4ZHA7ng68", name: "CSE" },
+            "ECE": { id: "1vJG_FnNlf0iTPPDNkNnz9uI9R6gRvrnD2G2KAbUdkVc", name: "ECE" },
+            "EEE": { id: "1C_7iAvZFuifNY2qbtu4xX9m_jjUv79N6XbgCk390qmw", name: "EEE" },
+            "IT": { id: "1h_i8o58GH0JTOJfMZ8vPxibP7vktf7ZVWaWjTkvR20E", name: "IT" },
+            "AI & ML": { id: "1IdpJyVYOPjBSiZF8Hm56agp-sIsH8IzCfFdN_vz-Wg4", name: "AI & ML" },
+            "Cyber Security": { id: "10WIAm5ubX3ILQKR7EUfcGbafbf6sSzy7SN8QbmUbO8k", name: "Cyber Security" }
           }
           // IP2: {
           //   "B.Sc  AIML": { id: "1eHcJZfwa8DaQLH_mxp4", name: "B.Sc  AIML" },
@@ -86,9 +86,9 @@ export const BATCHES: BatchConfig[] = [
         subjectConfig: {
           defaultMaxMarks: {
             Theory: 8,
-            Lab: 10,
+            Lab: 12,
             "Lab+Theory": 10
-          },
+          },          
           departments: {
 "Civil": [
     { code: "25MA301", type: "Theory" },
@@ -344,14 +344,14 @@ export const BATCHES: BatchConfig[] = [
         // Internal Marks for 2nd Year
         internalMarksSheets: {
           IP1: {
-           "Mech": { id: "166J_m6K7r5A-S2Q8mrfH7hmKz1tA69vIKHZ4UASEA", name: "Mech" },
-          "Civil": { id: "10MSpdiybH44FSDHTtyuVMuaW6ki_j3fV4Z3h0n3ZM", name: "Civil" },
-          "AI & DS": { id: "1XKAgE-1tYeBpweH9peN0o3OwtxSYI_qifXnvYewg4", name: "AI & DS" },
-          "CSE": { id: "11z4MMgI8DOlQCKFxe0Ltp66vh4HUHNTLGYk1wZlYo", name: "CSE" },
-          "ECE": { id: "1VnqCIjSAo_qNfTs6EkKrfl1LYpJopyRt1aQmxkOmAw", name: "ECE" },
-          "EEE": { id: "1ehzA3Uab3xwPRU8cgNRpxpIQ8EkiwvMMVHXK8o_a5Q", name: "EEE" },
-          "IT": { id: "16yAZQ7jMisKDtCmp2S4Lm7-Vh5g7VOCbvGg4i7wv0g", name: "IT" },
-          "AI & ML": { id: "1xVoxuki1pfmVyu_3gud5CEazDk_d0Fxqm9d8Ga97g", name: "AI & ML" }
+           "Mech": { id: "1oYgQ6n5RkfxPJrMuuuR-MEb7GjSlRObzfQ4jIw_aQI4", name: "Mech" },
+          "Civil": { id: "1Q5lXmEvXZX_Hbq-AN2845E5eW8yWodtuS8ARtDkrRL4", name: "Civil" },
+          "AI & DS": { id: "1DrOqYL-NiAwsUYKyGodExuvZDYfHK9jmZFgh1tSlcHI", name: "AI & DS" },
+          "CSE": { id: "1JBrDZAaDy35vroJ-uAVws3dcSXbC9HQlfxYNLmZlJEI", name: "CSE" },
+          "ECE": { id: "1GJSA8KSsOKDNwnG4_K1UebvR9ozLnuQPgRe2gZIO82Q", name: "ECE" },
+          "EEE": { id: "1XVP1EkotXaSn4faB0HqikKzXIbmaKLrOKJ54iPLjbi0", name: "EEE" },
+          "IT": { id: "1DAyh3ykYG0I4QjYRGpEn0o31JbzLAfNY4VK9_2GExGQ", name: "IT" },
+          "AI & ML": { id: "1e-9g0ez688YKif7kghl3LtLoOsv23q8xcxrkKRiHTI4", name: "AI & ML" }
           }
         },
 
@@ -359,7 +359,7 @@ export const BATCHES: BatchConfig[] = [
         subjectConfig: {
           defaultMaxMarks: {
             Theory: 8,
-            Lab: 10,
+            Lab: 12,
             "Lab+Theory": 10
           },
           departments: {
