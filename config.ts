@@ -46,7 +46,7 @@ export const BATCHES: BatchConfig[] = [
   // BATCH 1: 2025 - 2028 (1st Year)
   // --------------------------------------------------------------------------
   {
-    id: 'batch-2025-2028',
+    id: 'batch-2025-2029',
     label: 'Batch 2025 - 2029 (2nd Year)',
     semesters: {
       "1": { 
@@ -344,14 +344,14 @@ export const BATCHES: BatchConfig[] = [
         // Internal Marks for 2nd Year
         internalMarksSheets: {
           IP1: {
-           "Mech": { id: "1oYgQ6n5RkfxPJrMuuuR-MEb7GjSlRObzfQ4jIw_aQI4", name: "Mech" },
-          "Civil": { id: "1Q5lXmEvXZX_Hbq-AN2845E5eW8yWodtuS8ARtDkrRL4", name: "Civil" },
-          "AI & DS": { id: "1DrOqYL-NiAwsUYKyGodExuvZDYfHK9jmZFgh1tSlcHI", name: "AI & DS" },
-          "CSE": { id: "1JBrDZAaDy35vroJ-uAVws3dcSXbC9HQlfxYNLmZlJEI", name: "CSE" },
-          "ECE": { id: "1GJSA8KSsOKDNwnG4_K1UebvR9ozLnuQPgRe2gZIO82Q", name: "ECE" },
-          "EEE": { id: "1XVP1EkotXaSn4faB0HqikKzXIbmaKLrOKJ54iPLjbi0", name: "EEE" },
-          "IT": { id: "1DAyh3ykYG0I4QjYRGpEn0o31JbzLAfNY4VK9_2GExGQ", name: "IT" },
-          "AI & ML": { id: "1e-9g0ez688YKif7kghl3LtLoOsv23q8xcxrkKRiHTI4", name: "AI & ML" }
+           "Mech": { id: "1j1kil1GLEXEpGKtB8hxsG2JHJeFct2og0DTI3v6a1do", name: "Mech" },
+          "Civil": { id: "19NCVHXM82Wm7qzKyyld-wpiO6uEvk-7Vu0LcUyQGYjc", name: "Civil" },
+          "AI & DS": { id: "13Tw3FXdIXKSlRoX_53fCni2hmZ-JQD5GFLM8_GQ73xU", name: "AI & DS" },
+          "CSE": { id: "1Uovz2xI4MyI9tPDaXiOINe33coKLT2iqOTsqhFnYwaw", name: "CSE" },
+          "ECE": { id: "1qsGWva8WaWon9lfXBlbfzp7znFasBy1aEm6pTYzI794", name: "ECE" },
+          "EEE": { id: "12a8y-iGROtMnPS-PW_IUk-VFTQrAF20czyznNVzbFKg", name: "EEE" },
+          "IT": { id: "14ZgsVVCO753NF61uwu6GK5_6fhJwIwO9GrhpSfAr8c4", name: "IT" },
+          "AI & ML": { id: "1BUxND8Syb2QEAgb3JDtrq7XtcgvJreu_e39ruCnejPo", name: "AI & ML" }
           }
         },
 
@@ -368,6 +368,7 @@ export const BATCHES: BatchConfig[] = [
     { code: "23CE502", type: "Theory" },
     { code: "23CE503", type: "Theory" },
     { code: "23PCE04", type: "Theory" },
+    { code: "23CE511", type: "Lab" },
     { code: "23PCE30", type: "Theory" },
     { code: "23OHS01", type: "Theory" }
   ],
