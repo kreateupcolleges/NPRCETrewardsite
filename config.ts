@@ -72,15 +72,15 @@ export const BATCHES: BatchConfig[] = [
             "Cyber Security": { id: "1sPMQ-ZR8YqVv-5YZHFXuP1wITQ3wgiHH4JUSWCfYOmQ", name: "Cyber Security" }
           },
           IP2: {
-           "Mech": { id: "1c-XAUaGa7OURpos8bSWLBYzZsHi4lkNp-nVB923ZsoI", name: "Mech" },
-            "Civil": { id: "1nHU7APsib9xX8b7c9sWHPHf2nw35oUdThCpTrCJxOng", name: "Civil" },
-            "AI & DS": { id: "1U-uK019lESqOul7kbuWNIZ3q_SpYW4IbQnBqEYTEKds", name: "AI & DS" },
-            "CSE": { id: "1WfiJBHIby4VwdXQkgkoiYZagrEwROUXTEAjUqvoxYEo", name: "CSE" },
-            "ECE": { id: "1_VHdxSrSDVPycRmiMPOmloVeiIFIial0fqxKxN5p_XY", name: "ECE" },
-            "EEE": { id: "1ujgqop-8fOhTkW1Bus3ylIg5pfEmp86sHws63iG_mGc", name: "EEE" },
-            "IT": { id: "1JNLI-B6is2JlpR4a-zJRNyfgc5Y9IXaQ29sPotf7c5Y", name: "IT" },
-            "AI & ML": { id: "183LT-dm9nX9RxmZ7RQ6VNf4iMAj_eRiRZ38waaCEWcs", name: "AI & ML" },
-            "Cyber Security": { id: "1ypTOHV_efFTe2goPlQYDevXyUiKNbKYgFEuksfRVJlw", name: "Cyber Security" }
+           "Mech": { id: "1r9fP2MYiwM-j8PItWs3e5Pw5opVApVVNJSieYVsTjmA", name: "Mech" },
+            "Civil": { id: "1GoUOUCq9FY7kSLYVK2hzo0GuaAVoUT2DW7uYFONNtWs", name: "Civil" },
+            "AI & DS": { id: "1eqI4OrWRmHiBToLcdoyZbRLOF9DhBi5KWJkH1vfnbWQ", name: "AI & DS" },
+            "CSE": { id: "1Pu_4J7aTGkb797UoOzjNV0uxSF2d4K_8tDVa1-Of_PY", name: "CSE" },
+            "ECE": { id: "1omRrbSclLpZvKUQlLCdERI2OB-U_U1v0cPywt6xPOAQ", name: "ECE" },
+            "EEE": { id: "10THxNeF4LvTcoNartlst-ichYJpuRw1NOAAkDMjc_sg", name: "EEE" },
+            "IT": { id: "1m5P1SI8Vwtn7EoMKq_UsxyqgK5LBIGpjTEvT3JbDo-E", name: "IT" },
+            "AI & ML": { id: "1zaW0HIIvxd9F_Plfu85peBx1E0ZHoMPOdVovEpi4BeU", name: "AI & ML" },
+            "Cyber Security": { id: "1UCnUfp_RfZzfB3hmL6Hcht_hRGn3ZXQcznshw2YWOWE", name: "Cyber Security" }
           }
         },
 
