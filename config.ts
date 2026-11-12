@@ -55,38 +55,40 @@ export const BATCHES: BatchConfig[] = [
         
         // --- SEMESTER 1 SHEETS ---
         rewardSheets: {
-          IP1: { id: "1iNVolZsurvADA7snlC0WXh9pAO4snrhdsOydm22ngH8", name: "NPR_2025-2029_All_S3_IP1_RewardSplit" }
-          // IP2: { id: "1cJc1Vc2PSAo6hUlGJSX_8R4jUnjzHA", name: "RCS_1styear_IP2_RewardsSplit" }
+          IP1: { id: "1iNVolZsurvADA7snlC0WXh9pAO4snrhdsOydm22ngH8", name: "NPR_2025-2029_All_S3_IP1_RewardSplit" },
+          IP2: { id: "1ScJF5MADioyleKvAwj8ufTqHYY_g6W7hyyjjavKJXi8", name: "NPR_2025-2029_All_S3_IP2_RewardSplit" }
         },
         
         internalMarksSheets: {
           IP1: {
-           "Mech": { id: "1Ce3PV4Hmx9GFXDy8bQcJrO8zUVMiRi3v7WnFSIv3B1Q", name: "Mech" },
-            "Civil": { id: "1StLnbGv7l-rR5FAtRF1WbNkfdkGywf19hBIfFXUIOj4", name: "Civil" },
-            "AI & DS": { id: "17MbcwBub27BfRlF5BtBlJY9Hr2Va07dAZ9x96yTIHvg", name: "AI & DS" },
-            "CSE": { id: "1B7p_HrpkKVik9KwHsxOnNQi02gmi-x6ejn4ZHA7ng68", name: "CSE" },
-            "ECE": { id: "1vJG_FnNlf0iTPPDNkNnz9uI9R6gRvrnD2G2KAbUdkVc", name: "ECE" },
-            "EEE": { id: "1C_7iAvZFuifNY2qbtu4xX9m_jjUv79N6XbgCk390qmw", name: "EEE" },
-            "IT": { id: "1h_i8o58GH0JTOJfMZ8vPxibP7vktf7ZVWaWjTkvR20E", name: "IT" },
-            "AI & ML": { id: "1IdpJyVYOPjBSiZF8Hm56agp-sIsH8IzCfFdN_vz-Wg4", name: "AI & ML" },
-            "Cyber Security": { id: "10WIAm5ubX3ILQKR7EUfcGbafbf6sSzy7SN8QbmUbO8k", name: "Cyber Security" }
+           "Mech": { id: "1V64uVTJyDzmg-XE6z_O3PIONyHNyIWpnbW8DPzaW6es", name: "Mech" },
+            "Civil": { id: "1w4oACBCUIyEaAGqYmCSkbBZGkDuSDVD85XehJA92OPQ", name: "Civil" },
+            "AI & DS": { id: "1jss_GIJkB-uYshxoVd5MDiOMe_BtNcn5qHpCchvPNqk", name: "AI & DS" },
+            "CSE": { id: "10e9KmgjrX_7kH1jWK7SUeimlLD8WBAWzB3TLQ5RzyUA", name: "CSE" },
+            "ECE": { id: "1eB0w6zidPQTw5DCOxEpRO_0bs-QY21ArxLyNCT3eOS", name: "ECE" },
+            "EEE": { id: "1wAbv5EZcxuK46GWugNV7z2M3K8A0n5v2BtQCdiT03yI", name: "EEE" },
+            "IT": { id: "1cfvqFwnrgFquDRAl6K9xJAID2rs9br3TrM70Md5xxRE", name: "IT" },
+            "AI & ML": { id: "1AK4VyJbDbGPKR3OAjJMtzKX5l1Y0Eb7fLUzeArGTtoY", name: "AI & ML" },
+            "Cyber Security": { id: "1sPMQ-ZR8YqVv-5YZHFXuP1wITQ3wgiHH4JUSWCfYOmQ", name: "Cyber Security" }
+          },
+          IP2: {
+           "Mech": { id: "1c-XAUaGa7OURpos8bSWLBYzZsHi4lkNp-nVB923ZsoI", name: "Mech" },
+            "Civil": { id: "1nHU7APsib9xX8b7c9sWHPHf2nw35oUdThCpTrCJxOng", name: "Civil" },
+            "AI & DS": { id: "1U-uK019lESqOul7kbuWNIZ3q_SpYW4IbQnBqEYTEKds", name: "AI & DS" },
+            "CSE": { id: "1WfiJBHIby4VwdXQkgkoiYZagrEwROUXTEAjUqvoxYEo", name: "CSE" },
+            "ECE": { id: "1_VHdxSrSDVPycRmiMPOmloVeiIFIial0fqxKxN5p_XY", name: "ECE" },
+            "EEE": { id: "1ujgqop-8fOhTkW1Bus3ylIg5pfEmp86sHws63iG_mGc", name: "EEE" },
+            "IT": { id: "1JNLI-B6is2JlpR4a-zJRNyfgc5Y9IXaQ29sPotf7c5Y", name: "IT" },
+            "AI & ML": { id: "183LT-dm9nX9RxmZ7RQ6VNf4iMAj_eRiRZ38waaCEWcs", name: "AI & ML" },
+            "Cyber Security": { id: "1ypTOHV_efFTe2goPlQYDevXyUiKNbKYgFEuksfRVJlw", name: "Cyber Security" }
           }
-          // IP2: {
-          //   "B.Sc  AIML": { id: "1eHcJZfwa8DaQLH_mxp4", name: "B.Sc  AIML" },
-          //   "B.Sc  CS with AI": { id: "1Z1iK7UpChhf4p5oDar2mhStX96s", name: "B.Sc  CS with AI" },
-          //   "B.Sc CS": { id: "1w-9Nxy6X1pMTBU8YTOXozsU", name: "B.Sc CS" },
-          //   "B.Sc DCFS": { id: "1sUdFzj8_LXMntv6tQgjy94rM", name: "B.Sc DCFS" },
-          //   "B.Sc DS": { id: "1usnswuhn5chnx58-XioTEk", name: "B.Sc DS" },
-          //   "B.Sc DSA": { id: "1v_ucgOpVWSYV50Z1Kiln_r593pg", name: "B.Sc DSA" },
-          //   "B.Sc IT": { id: "1BZ9VS712RmFe9X8HKAzoacym4", name: "B.Sc IT" }
-          // }
         },
 
         // --- SEMESTER 1 SUBJECTS ---
         subjectConfig: {
           defaultMaxMarks: {
             Theory: 8,
-            Lab: 12,
+            Lab: 10,
             "Lab+Theory": 10
           },          
           departments: {
@@ -337,29 +339,39 @@ export const BATCHES: BatchConfig[] = [
         
         // Reward Sheets for 2nd Year (using dummy IDs from 1st year for demo)
         rewardSheets: {
-          "IP1": { id: "11ojcMSPJV_toYD5ARi6yqV4pqvFVHFpcVKVndnBv-rM", name: "NPR_2024-2028_All_S5_IP1_RewardSplit" }
-          // "IP2": { id: "1cJc1Vc2PSR4jUnjzHA", name: "RCS_1styear_IP2_RewardsSplit" }
+          "IP1": { id: "11ojcMSPJV_toYD5ARi6yqV4pqvFVHFpcVKVndnBv-rM", name: "NPR_2024-2028_All_S5_IP1_RewardSplit" },
+          "IP2": { id: "1mymK1Cmx1iEe_ts-5H33iNEGptxrHM3sz624SBRehxU", name: "NPR_2024-2028_All_S5_IP2_RewardSplit" }
         },
         
         // Internal Marks for 2nd Year
         internalMarksSheets: {
           IP1: {
-           "Mech": { id: "1j1kil1GLEXEpGKtB8hxsG2JHJeFct2og0DTI3v6a1do", name: "Mech" },
-          "Civil": { id: "19NCVHXM82Wm7qzKyyld-wpiO6uEvk-7Vu0LcUyQGYjc", name: "Civil" },
-          "AI & DS": { id: "13Tw3FXdIXKSlRoX_53fCni2hmZ-JQD5GFLM8_GQ73xU", name: "AI & DS" },
-          "CSE": { id: "1Uovz2xI4MyI9tPDaXiOINe33coKLT2iqOTsqhFnYwaw", name: "CSE" },
-          "ECE": { id: "1qsGWva8WaWon9lfXBlbfzp7znFasBy1aEm6pTYzI794", name: "ECE" },
-          "EEE": { id: "12a8y-iGROtMnPS-PW_IUk-VFTQrAF20czyznNVzbFKg", name: "EEE" },
-          "IT": { id: "14ZgsVVCO753NF61uwu6GK5_6fhJwIwO9GrhpSfAr8c4", name: "IT" },
-          "AI & ML": { id: "1BUxND8Syb2QEAgb3JDtrq7XtcgvJreu_e39ruCnejPo", name: "AI & ML" }
+           "Mech": { id: "1f7pAqL0fsCarCtU9gj8ROSAow8d5bxfG0KBq1XiXx8g", name: "Mech" },
+          "Civil": { id: "1qaUD1VAdSVVkgEie_nqIHAz-ZmsYTTmDV6CEprm--7k", name: "Civil" },
+          "AI & DS": { id: "15LN6-z8PfDb7ZMlkl5_zJRGtoXsfE-rURnwCmv_TPTY", name: "AI & DS" },
+          "CSE": { id: "1sqw1XdZBB7tfMvyApR08IbNkP7QAxO3n5a773DrjsV8", name: "CSE" },
+          "ECE": { id: "17QrpfHm9tkXM8cF0YH6nre3MxXYXL-GZu5vJ1JdW10w", name: "ECE" },
+          "EEE": { id: "1Umlq_f69SIKqoqVar4Zixe9GbKCLzQYUAaDlbV0wU_E", name: "EEE" },
+          "IT": { id: "1rRHPhDeeX_NVy_fEk_HkGlgW3MhgNa7qvccqGHuvLXQ", name: "IT" },
+          "AI & ML": { id: "1NqCovqpzmEsShq9zqja4byFfqgibs7Z8nTyg2rwREKA", name: "AI & ML" }
+          },
+          IP2: {
+           "Mech": { id: "1HZR2TgvUh_sScSZxbI4kigPIUUXdsLA8sOS0UlDyeoI", name: "Mech" },
+          "Civil": { id: "1QesmTW43Xum1XOiCAGdRoD76ef-t7kzlx2Dv09lyd7E", name: "Civil" },
+          "AI & DS": { id: "10IlFz0v5WSQb7eV_U54Z3oEwMAq-r1MchFTvJQD1pW8", name: "AI & DS" },
+          "CSE": { id: "1A_VcafTcNMdH9x-Uw1aLmO3yLRJCSw2uPbp2jWug_9Q", name: "CSE" },
+          "ECE": { id: "1QQ026zCql49bBG6M7nzPuuS67X-lTohkLV_VIkJY8xU", name: "ECE" },
+          "EEE": { id: "18WXqlImtZJJtBKw2Ixx6s241gz77w3s9qltwdqsT5jw", name: "EEE" },
+          "IT": { id: "1wIzmBKB7H3cStAowL-WgWfI0WzexeH_9Tl-IwbZX5d4", name: "IT" },
+          "AI & ML": { id: "1rZhouT-nZO0FE9-EbRodorSAFDq7XBrfhMH5nSp7h3E", name: "AI & ML" }
           }
         },
 
-        // Subjects for 2nd Year, Semester 3
+        // Subjects for 3rd Year, Semester 5
         subjectConfig: {
           defaultMaxMarks: {
             Theory: 8,
-            Lab: 12,
+            Lab: 10,
             "Lab+Theory": 10
           },
           departments: {
